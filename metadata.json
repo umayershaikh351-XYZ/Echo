@@ -1,0 +1,6 @@
+{
+  "name": "Echo: Escape the Grid",
+  "description": "Cinematic 2D mobile parkour platformer inspired by Vector. Escape the surveillance grid across five dystopian districts.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

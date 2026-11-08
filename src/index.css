@@ -1,0 +1,46 @@
+@import "tailwindcss";
+
+@layer base {
+  html, body, #root {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    user-select: none;
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
+    font-family: 'Outfit', sans-serif;
+    background-color: #050608;
+    color: #f1f5f9;
+  }
+}
+
+.font-cyber {
+  font-family: 'Rajdhani', sans-serif;
+}
+
+.font-display {
+  font-family: 'Outfit', sans-serif;
+}
+
+/* Neon glow utility classes */
+.glow-cyan {
+  text-shadow: 0 0 10px rgba(6, 182, 212, 0.7), 0 0 20px rgba(6, 182, 212, 0.4);
+}
+
+.glow-red {
+  text-shadow: 0 0 10px rgba(239, 68, 68, 0.7), 0 0 20px rgba(239, 68, 68, 0.4);
+}
+
+.glow-orange {
+  text-shadow: 0 0 10px rgba(249, 115, 22, 0.7), 0 0 20px rgba(249, 115, 22, 0.4);
+}
+
+.box-glow-cyan {
+  box-shadow: 0 0 15px rgba(6, 182, 212, 0.35), inset 0 0 10px rgba(6, 182, 212, 0.2);
+}
+
+.box-glow-red {
+  box-shadow: 0 0 15px rgba(239, 68, 68, 0.35), inset 0 0 10px rgba(239, 68, 68, 0.2);
+}
